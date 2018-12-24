@@ -1,0 +1,14 @@
+name: Tollgate
+version: 1.4
+main: me.tango.tollgate.Main
+depend: [Vault]
+description: Create tollgate signs to teleport through at a price
+author: Tango_
+prefix: TG
+api-version: 1.13
+commands:
+  tollgate:
+   description: usage /tollgate list to view all tollgates
+permissions:
+  tollgate.use:
+    description: Gives access to use list command

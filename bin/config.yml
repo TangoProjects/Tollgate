@@ -1,0 +1,47 @@
+# Tollgate Config by Tango_
+# For some of these messages you can use %cost% and %player% placeholders.
+
+# Cost to make a sign
+signCost: 15
+
+# Called when a sign is not facing directly North, East, South or West.
+signFacingError: "&4Sign must be facing directly North, East, South or West."
+
+# If a price on a sign is not numeric
+invalidPriceError: "&4Invalid sign, line 2 included an invalid price"
+
+# When a sign does not include the right information
+incompleteSignError: "&4Invalid sign, please set line 1 [Tollgate] and line 2 the price."
+
+# When a player does not have enough money to make a sign or use a sign
+notEnoughMoney: "&4Not enough funds!"
+
+# When a player successfully makes a tollgate
+successfullyMade: "&3Tollgate successfully made! &8[&4-%cost%&8]"
+
+# When a player successfully makes a tollgate
+removedTollgate: "&3Tollgate successfully removed"
+
+# When no safe location to teleport is found
+unableToTeleportError: "&3No safe location found!"
+
+# Called when a player uses their own tollgate
+usedOwnTollgate: "&3You used your own tollgate so no funds were taken"
+
+# Called when a players uses someone elses tollgate
+usedOtherTollgate: "&3Used &b%player%&3's Tollgate. &8[&4-%cost%&8]"
+
+# When a player does not have permission
+noPermission: "&4You do not have permission to do this"
+
+# When a player uses wrong arguments in list command
+invalidCommandArgs: "&4Insufficient args"
+
+# When a player does /tollgate list and none are found
+noTollgatesFound: "&3You do not have any tollgates"
+
+# When a player tries to break a tollgate that they do not own
+doNotOwnTollgate: "&3You do not own this tollgate"
+
+# Select currency symbol used in messages and signs
+currencySymbol: '$'
